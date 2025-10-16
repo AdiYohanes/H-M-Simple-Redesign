@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Configuration -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore H&M new arrivals and collection with smooth GSAP animations and modern scroll effects."
+    />
+    <title>H&M Studio – Urban Streetwear Collection</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/7944946f1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- ============================= -->
+      <!-- HERO SECTION -->
+      <!-- ============================= -->
+      <section class="hero">
+        <h1 class="hero-title">H & M</h1>
+      </section>
+
+      <!-- ============================= -->
+      <!-- NEW ARRIVAL SECTION -->
+      <!-- ============================= -->
+      <section class="new-arrival">
+        <div class="content-arrival">
+          <div class="left-side">
+            <div class="img">
+              <img
+                src="./images/arrival.jpg"
+                alt="Urban Ascend Jacket"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="right-side">
+            <div class="arrival-rows">
+              <div class="arrival-row"><h1>New</h1></div>
+              <div class="arrival-row"><h1>Arrival</h1></div>
+              <p>The Urban Ascend Jacket</p>
+              <p>Elevate your city style with this,</p>
+              <p>
+                versatile jacket designed for seamless day-to-night transitions.
+              </p>
+            </div>
+          </div>
+
+          <div class="ticker" data-duration="10">
+            <div class="ticker-wrap">
+              <div class="ticker-text">
+                Update Your Wardrobe with
+                <span class="accent">H&M New Arrivals</span> • Fresh Styles
+                <span class="accent">Have Landed</span> • Find Your Perfect Look
+                • Update Your Wardrobe •
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= -->
+      <!-- TRANSITION / SPACER -->
+      <!-- ============================= -->
+      <section class="whitespace"></section>
+
+      <!-- ============================= -->
+      <!-- COLLECTION SECTION -->
+      <!-- ============================= -->
+      <section class="collection">
+        <div class="collection-title">
+          <h1>Our Collection</h1>
+        </div>
+
+        <div class="container-collection">
+          <div class="card-collection">
+            <div class="badge">Jacket</div>
+            <img
+              class="image-default"
+              src="./images/jacket.jpg"
+              alt="Jaket Denim"
+            />
+            <img
+              class="image-hover"
+              src="./images/jacket-1.jpg"
+              alt="Jaket Denim dipakai model"
+            />
+          </div>
+
+          <div class="card-collection">
+            <div class="badge">Top</div>
+            <img
+              class="image-default"
+              src="./images/top.jpg"
+              alt="Atasan Rajut"
+            />
+            <img
+              class="image-hover"
+              src="./images/top-1.jpg"
+              alt="Atasan Rajut dipakai model"
+            />
+          </div>
+
+          <div class="card-collection">
+            <div class="badge">Shirt</div>
+            <img
+              class="image-default"
+              src="./images/shirt.jpg"
+              alt="Kemeja Putih"
+            />
+            <img
+              class="image-hover"
+              src="./images/shirt-1.jpg"
+              alt="Kemeja Putih dipakai model"
+            />
+          </div>
+
+          <div class="card-collection">
+            <div class="badge">Jeans</div>
+            <img
+              class="image-default"
+              src="./images/jeans.jpg"
+              alt="Celana Jeans"
+            />
+            <img
+              class="image-hover"
+              src="./images/jeans-1.jpg"
+              alt="Celana Jeans dipakai model"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= -->
+      <!-- FOOTER SECTION -->
+      <!-- ============================= -->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="left">
+            A creative studio crafting minimal digital and fashion experiences
+            through detail, balance, and emotion.
+          </div>
+
+          <div class="left-1">
+            <span>Explore</span>
+            <ul>
+              <li><a href="#">Bio</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="right-1">
+            <span>Follow Me</span>
+            <ul class="social-list">
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="right profile">
+            <h2>H&M Studio</h2>
+            <p>Modern streetwear meets timeless design.</p>
+            <a href="#" class="profile-btn">About Us</a>
+          </div>
+        </div>
+
+        <div class="footer-container-1">
+          <h1>H&M</h1>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ============================= -->
+    <!-- SCRIPTS -->
+    <!-- ============================= -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
