@@ -70,20 +70,33 @@ section.new-arrival {
   position: relative;
 }
 
-.content-arrival .left-side,
-.content-arrival .left-side .img {
-  width: 50%;
+.content-arrival .left-side {
+  flex: 1; /* memastikan setengah dari flex container */
   height: 100vh;
   overflow: hidden;
 }
 
+.content-arrival .left-side .img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-arrival .left-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
 .content-arrival .right-side {
-  width: 50%;
+  flex: 1; /* setengah juga */
   height: 100vh;
-  padding: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 80px 60px;
+  box-sizing: border-box; /* biar padding tidak menambah lebar */
 }
 
 .arrival-rows {
